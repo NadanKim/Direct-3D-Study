@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Objects\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Global\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Homework4.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Global\ETC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Global\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Homework4.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Global\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Global\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Global\ETC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Homework4.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Homework4.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{1d77e7b3-ccf8-453e-a5b7-301bcfcb07aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{383cfeeb-f734-462e-8754-a2f111cf6795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{8511a2fc-7b1b-4a1f-a000-51047329cd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{81046f19-af03-422a-9d59-a019456c0f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameObject">
+      <UniqueIdentifier>{e790cae2-fcab-444c-b305-134b8c9064dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player">
+      <UniqueIdentifier>{88a24674-df82-4c7e-aaf5-8a1607fb93a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{acfb23aa-5ac8-44ef-a842-65a30d33d621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a12315d4-bbff-4d75-8430-84efea5766e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{cf1efa65-2515-433f-ba10-5d54818148dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\Timer">
+      <UniqueIdentifier>{f0890735-1f77-4fd4-a802-00adb24f6249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global\ETC">
+      <UniqueIdentifier>{41652de1-8e05-4ff3-a335-1d601c757a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c5312775-0df8-4f96-bbb1-acd7cc91ce50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
